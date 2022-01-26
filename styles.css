@@ -1,4 +1,4 @@
-.header__left_link {
+.a__header_left {
   color: rgba(25, 25, 25, 1);
   font-size: 27px;
   font-weight: 500;
@@ -6,7 +6,7 @@
   margin-right: 24px;
 }
 
-.header__left_link_small {
+.a__header_left_small {
   color: rgba(117, 117, 117, 1);
   font-size: 16px;
   font-weight: 400;
