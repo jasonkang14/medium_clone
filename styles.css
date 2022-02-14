@@ -1,4 +1,4 @@
-.header__left_link {
+.a__header_left {
   color: rgba(25, 25, 25, 1);
   font-size: 27px;
   font-weight: 500;
@@ -6,7 +6,7 @@
   margin-right: 24px;
 }
 
-.header__left_link_small {
+.a__header_left_small {
   color: rgba(117, 117, 117, 1);
   font-size: 16px;
   font-weight: 400;
@@ -19,9 +19,38 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
   padding: 0 48px;
 }
 
 body {
   margin: 0;
+}
+
+.section__header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.a__header_right {
+}
+
+.img__search {
+  width: 25px;
+  height: 25px;
+}
+
+.img__profile {
+  width: 32px;
+  height: 32px;
+}
+
+.img__medium_logo {
+  width: 44px;
+  height: 25px;
+}
+
+.section__header_right a:not(:last-child) {
+  margin-right: 24px;
 }
