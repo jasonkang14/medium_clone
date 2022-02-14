@@ -19,9 +19,38 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
   padding: 0 48px;
 }
 
 body {
   margin: 0;
+}
+
+.section__header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.a__header_right {
+}
+
+.img__search {
+  width: 25px;
+  height: 25px;
+}
+
+.img__profile {
+  width: 32px;
+  height: 32px;
+}
+
+.img__medium_logo {
+  width: 44px;
+  height: 25px;
+}
+
+.section__header_right a:not(:last-child) {
+  margin-right: 24px;
 }
